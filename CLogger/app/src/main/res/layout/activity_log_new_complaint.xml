@@ -8,7 +8,7 @@
     tools:context=".LogNewComplaint">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/getphone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -18,17 +18,20 @@
         android:inputType="phone" />
 
     <EditText
+        android:id="@+id/getdepartment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Department"
         android:gravity="center_horizontal"/>
 
     <EditText
+        android:id="@+id/getLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Location"
         android:gravity="center_horizontal"/>
     <EditText
+        android:id="@+id/getinformation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Additional Information"
@@ -37,7 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/submit"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="submitnewcomplaint"/>
 
     <!--<Spinner-->
         <!--android:layout_width="match_parent"-->

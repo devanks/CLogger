@@ -20,7 +20,8 @@
         <activity android:name=".SupervisorPage" />
         <activity android:name=".WorkerPage" />
         <activity android:name=".LogNewComplaint" />
-        <activity android:name=".TrackComplaint"></activity>
+        <activity android:name=".TrackComplaint" />
+        <activity android:name=".ViewComplaint"></activity>
     </application>
 
 </manifest>
