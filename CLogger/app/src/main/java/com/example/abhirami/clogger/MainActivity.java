@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Intent workerpageintent=new Intent(this, WorkerPage.class);
         startActivity(workerpageintent);
     }
+    public void firebaseuiactivity(View view)
+    {
+        Intent firebaseuiintent=new Intent(this, FirebaseUI.class);
+        startActivity(firebaseuiintent);
+    }
 }
